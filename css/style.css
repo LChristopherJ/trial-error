@@ -1,0 +1,45 @@
+#main-head {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0, 47, 255, 0.814);
+    width: 25%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: xxx-large;
+    background-image: url(../images/blue\ ripple.jpg);
+
+
+}
+
+/*navigation headings*/
+
+#nav-menu {
+    float: right;
+    text-align: center;
+}
+
+/*hero and lower pictures*/
+
+#under-hero {
+    border: 0ch;
+
+}
+
+/*ethos*/
+
+
+#ethos {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#benefits1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#social-points {
+    text-align: center;
+}
