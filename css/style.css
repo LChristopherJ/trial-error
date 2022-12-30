@@ -1,25 +1,39 @@
 #main-head {
     text-transform: uppercase;
     text-align: center;
-    color: rgba(0, 47, 255, 0.814);
     width: 25%;
     margin: auto;
     padding: 25px;
     border-radius: 5px;
     font-size: xxx-large;
+
+
     background-image: url(../images/blue\ ripple.jpg);
-
-
 }
+
+
+
+
+
+/*hero image*/
+
+
 
 /*navigation headings*/
 
 #nav-menu {
-    float: right;
-    text-align: center;
+    display: inline;
+    color: hotpink;
+    
 }
 
+
 /*hero and lower pictures*/
+
+#hero {
+    border: 1px aquamarine;
+    border-radius: 5px;
+}
 
 #under-hero {
     border: 0ch;
@@ -42,4 +56,20 @@
 
 #social-points {
     text-align: center;
+}
+
+#bullet-point-bg {
+    background-image: url(/images/blue\ ripple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/*footer*/
+
+footer {
+    height: 150px;
+    text-align: center;
+}
+.social > li { 
+    display: inline
 }
