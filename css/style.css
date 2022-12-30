@@ -1,44 +1,28 @@
-#main-head {
-    text-transform: uppercase;
+header {
     text-align: center;
-    width: 25%;
-    margin: auto;
-    padding: 25px;
-    border-radius: 5px;
-    font-size: xxx-large;
-
-
-    background-image: url(../images/blue\ ripple.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: royalblue;
 }
 
 
+/*navigation heading*/
 
-
-
-/*hero image*/
-
-
-
-/*navigation headings*/
+.navigation {
+    text-align: center;
+}
+ .navigation > li {
+    display: inline;
+ }
 
 #nav-menu {
-    display: inline;
-    color: hotpink;
-    
-}
-
-
-/*hero and lower pictures*/
-
-#hero {
-    border: 1px aquamarine;
-    border-radius: 5px;
-}
-
-#under-hero {
-    border: 0ch;
+    float: right;
+    background-position: auto;
 
 }
+
+
+/*lower pictures*/
+
 
 /*ethos*/
 
@@ -64,12 +48,25 @@
     background-size: cover;
     overflow: hidden;
 }
+
 /*footer*/
 
 footer {
     height: 150px;
+
+}
+
+.social-net {
     text-align: center;
 }
-.social > li { 
-    display: inline
+
+.social-net > li {
+    display: inline;
+}
+
+.social-net i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
 }
