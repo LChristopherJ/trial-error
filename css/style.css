@@ -3,6 +3,59 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+
+
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    font-weight: 200;
+    color: darkslategray;
+}
+
+/*headings and logo*/
+
+
+h1,
+h2 {
+    font-family: 'Prosto One', cursive;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+#main-logo {
+    color: darkslategray;
+    float: left;
+    font-size: 250%;
+
+}
+
+/*nav*/
+
+#menu {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+
+
+}
+
+#menu,
+#main-logo {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px inset darkslategray;
 }
 
 header {
@@ -11,115 +64,61 @@ header {
     color: royalblue;
     text-align: center;
 }
-
-
-h1 {
-    font-family: 'Prosto One', cursive;
-    color: royalblue;
-
-}
-
-/*navigation heading*/
-
-.logo {
-    text-align: center;
-    font-size: 180%
-}
-
-nav {
-    font-weight: 200;
-    list-style-type: none;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: black;
-}
-
-#navigation-list {
-    font-size: medium
-}
-
-.navigation,
-#navigation-list {
-    list-style-type: none;
-    margin: 30px;
-    display: inline
-}
-
-/*hero*/
-
-#main-pic {
-    border: 1px solid royalblue;
-    border-radius: 50px;
-    overflow: hidden;
-    padding: 0%;
-
-}
+/*benefits*/
 
 
 
+    #ethos {
+        text-align: center;
+        text-decoration: underline;
+    }
 
-/*lower pictures*/
+    #benefits1 {
+        text-align: center;
+        text-decoration: underline;
 
-.under-hero,
-img {
-    border: 1px solid royalblue;
-    border-radius: 5px;
-    overflow: hidden;
+    }
 
+    #social-points {
+        text-align: center;
+    }
 
-}
+    #bullet-point-bg {
+        background-image: url(/images/blue\ ripple.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        border: 1px solid blue;
+        border-radius: 5px;
+        padding: o;
+        margin: 0;
+        
+    }
 
+    #first-image {
+        float: left;
+        padding: 0;
+        margin: o auto;
+    }
 
+    /*footer*/
 
-/*ethos*/
+    footer {
+        height: 150px;
 
+    }
 
-#ethos {
-    text-align: center;
-    text-decoration: underline;
-}
+    .social-net {
+        text-align: center;
+    }
 
-#benefits1 {
-    text-align: center;
-    text-decoration: underline;
+    .social-net>li {
+        display: inline;
+    }
 
-}
-
-#social-points {
-    text-align: center;
-}
-
-#bullet-point-bg {
-    background-image: url(/images/blue\ ripple.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    border: 1px solid royalblue;
-    border-radius: 50px;
-    overflow: hidden;
-
-}
-
-/*footer*/
-
-footer {
-    height: 150px;
-
-}
-
-.social-net {
-    text-align: center;
-}
-
-.social-net>li {
-    display: inline;
-}
-
-.social-net i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: black;
-}
+    .social-net i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: black;
+    }
