@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
 
     font-family: 'Prosto One', cursive;
@@ -8,12 +13,10 @@ header {
 }
 
 
-body {
-    color: black
-}
-
-h2 {
+h1 {
     font-family: 'Prosto One', cursive;
+    color: royalblue;
+
 }
 
 /*navigation heading*/
@@ -21,8 +24,6 @@ h2 {
 .logo {
     text-align: center;
     font-size: 180%
-    
-
 }
 
 nav {
@@ -43,14 +44,32 @@ nav {
 #navigation-list {
     list-style-type: none;
     margin: 30px;
-    display:inline
+    display: inline
 }
+
 /*hero*/
+
+#main-pic {
+    border: 1px solid royalblue;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0%;
+
+}
 
 
 
 
 /*lower pictures*/
+
+.under-hero,
+img {
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
 
 
 
@@ -77,6 +96,10 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    border: 1px solid royalblue;
+    border-radius: 50px;
+    overflow: hidden;
+
 }
 
 /*footer*/
