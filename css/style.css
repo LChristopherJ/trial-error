@@ -11,17 +11,18 @@
 body {
     font-family: 'Prosto One', cursive;
     font-weight: 200;
-    color: darkslategray;
+
 }
 
 /*headings and logo*/
 
 
 h1,
-h2 {
+h2,
+p {
     font-family: 'Prosto One', cursive;
     text-transform: uppercase;
-    color: darkslategray;
+
 }
 
 #main-logo {
@@ -64,61 +65,44 @@ header {
     color: royalblue;
     text-align: center;
 }
-/*benefits*/
+
+/*benefit*/
+
+#benefits1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#benefits2 {}
 
 
 
-    #ethos {
-        text-align: center;
-        text-decoration: underline;
-    }
 
-    #benefits1 {
-        text-align: center;
-        text-decoration: underline;
+#first-image {
+    float: left;
+    padding: 0;
+    margin: o auto;
+}
 
-    }
+/*footer*/
 
-    #social-points {
-        text-align: center;
-    }
+footer {
+    height: 150px;
 
-    #bullet-point-bg {
-        background-image: url(/images/blue\ ripple.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-        border: 1px solid blue;
-        border-radius: 5px;
-        padding: o;
-        margin: 0;
-        
-    }
+}
 
-    #first-image {
-        float: left;
-        padding: 0;
-        margin: o auto;
-    }
+.social-net {
+    text-align: center;
+}
 
-    /*footer*/
+.social-net>li {
+    display: inline;
+}
 
-    footer {
-        height: 150px;
-
-    }
-
-    .social-net {
-        text-align: center;
-    }
-
-    .social-net>li {
-        display: inline;
-    }
-
-    .social-net i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: black;
-    }
+.social-net i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
