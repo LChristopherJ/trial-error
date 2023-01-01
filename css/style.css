@@ -1,27 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 header {
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-family: 'Prosto One', cursive;
     color: royalblue;
+    text-align: center;
 }
 
+
+body {
+    color: black
+}
+
+h2 {
+    font-family: 'Prosto One', cursive;
+}
 
 /*navigation heading*/
 
-.navigation {
+.logo {
     text-align: center;
-}
- .navigation > li {
-    display: inline;
- }
-
-#nav-menu {
-    float: right;
-    background-position: auto;
+    font-size: 180%
+    
 
 }
+
+nav {
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigation-list {
+    font-size: medium
+}
+
+.navigation,
+#navigation-list {
+    list-style-type: none;
+    margin: 30px;
+    display:inline
+}
+/*hero*/
+
+
 
 
 /*lower pictures*/
+
 
 
 /*ethos*/
@@ -60,7 +90,7 @@ footer {
     text-align: center;
 }
 
-.social-net > li {
+.social-net>li {
     display: inline;
 }
 
