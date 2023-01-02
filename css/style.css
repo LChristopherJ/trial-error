@@ -17,11 +17,10 @@ body {
 /*headings and logo*/
 
 
-h1,
-h2,
-p {
+h1, h2 {
     font-family: 'Prosto One', cursive;
     text-transform: uppercase;
+    text-decoration: underline;
 
 }
 
@@ -29,6 +28,7 @@ p {
     color: darkslategray;
     float: left;
     font-size: 250%;
+    margin-left: 30px;
 
 }
 
@@ -49,6 +49,7 @@ p {
 #menu,
 #main-logo {
     line-height: 75px;
+
 }
 
 #menu a {
@@ -66,25 +67,30 @@ header {
     text-align: center;
 }
 
-/*benefit*/
+/*club-ethos*/
 
-#benefits1 {
-    text-align: center;
-    text-decoration: underline;
-
+#club-ethos {
+    height: 300px;
 }
 
-#benefits2 {}
-
-
-
-
-#first-image {
+#left-about {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 33%;
     float: left;
-    padding: 0;
-    margin: o auto;
 }
 
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
 /*footer*/
 
 footer {
@@ -96,7 +102,7 @@ footer {
     text-align: center;
 }
 
-.social-net>li {
+.social-net > li {
     display: inline;
 }
 
