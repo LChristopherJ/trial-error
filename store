@@ -49,3 +49,56 @@
         <p> Do you
             think you could walk if you were not well “balanced” on your feet…?? 🙂</p>
     </section>
+
+    #left-about,
+#right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+
+}
+hr {
+    display: none;
+}
+
+</header id="form1">
+<form action="https://formdump.codeinstitute.net/" method="POST">
+    <h2>Let's get you signed up!</h2>
+    <label for="fname">First Name</label>
+    <input type="text" required id="fname" name="first_name">
+    <label for="lname">Last Name</label>
+    <input type="text" required id="lname" name="last_name">
+    <label for="email">Email Address</label>
+    <input type="email" required id="email" name="email_address">
+    <label for="road">Road</label>
+    <input type="radio" id="road" name="running_preference" required value="road">
+    <label for="trail">Trail</label>
+    <input type="radio" id="trail" name="running_preference" value="trail">
+    <label for="trail">Both</label>
+    <input type="radio" id="both" name="running_preference" value="both">
+
+    <input type="submit">
+
+    <!--formbg(below) , styled ,form1(above) chamged it in the codes-->
+
+</form>
+
+#formbg {
+    background-image: url("../images/matching\ sky\ yoga.jpeg");
+    width: auto;
+    height: 600px;
+}
+
+                <label for="road">Road</label>
+                <input type="radio" id="road" name="running_preference" required value="road">
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail" name="running_preference" value="trail">
+                <label for="trail">Both</label>
+                <input type="radio" id="both" name="running_preference" value="both">
