@@ -40,8 +40,6 @@ body {
 }
 
 
-
-
 h1,
 h2 {
     font-family: 'Prosto One', cursive;
@@ -94,41 +92,56 @@ header {
     text-align: center;
 }
 
-/*club-ethos*/
+/*benefits*/
 
-#club-ethos {
-    height: 300px;
+.whole-benefits-section {
 
-    background-image: url("../images/ sky\ yoga.jpeg");
-    width: 100%;
-    height: auto;
+   background-image: url(../images/blue\ ripple.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
 
 }
 
-#left-about {
-    padding-top: 30px;
-    padding-left: 30px;
-    width: 33%;
-    float: left;
+
+#ben-head {
+
+    text-decoration: underline;
+    color: darkslategray;
+    text-transform: capitalize;
+    font-size: 250%;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
+
+
+
+#benefits-div {
     float: right;
+    padding-right: 30px;
+    width: 33%;
 }
 
-#center-about {
-    padding-top: 30px;
-    
+#social-div {
+
     width: 33%;
+    padding-right: 30px;
     margin: 0 auto;
 }
 
+#mental-div {
+    float: left;
+}
+
+
+
 /*popular types of yoga*/
 
-#first{
-   
+#first {
+
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -138,6 +151,10 @@ header {
     padding-top: 30px;
     width: 33%;
     float: right;
+}
+
+#top-left-types {
+    float: left;
 }
 
 
@@ -180,4 +197,27 @@ footer {
     background-image: url("../images/benefits\ background.jpg sky\ yoga.jpeg");
     width: auto;
     height: 600px;
+}
+
+#cover-text2 {
+    font-size: 130%;
+    font-family: 'Prosto One', cursive;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding: right 30px;
+
+    background-color: rgba(255, 160, 122, 0.6);
+    bottom: 20px;
+    left: 30px;
+
+    position: absolute;
+    border: 5px solid rgba(51, 156, 243, 0.4);
+    border-radius: 5px;
+
+
 }

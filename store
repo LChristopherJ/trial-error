@@ -102,3 +102,12 @@ hr {
                 <input type="radio" id="trail" name="running_preference" value="trail">
                 <label for="trail">Both</label>
                 <input type="radio" id="both" name="running_preference" value="both">
+
+
+#types {
+    background-image: url(../images/wendy-hero-67818.jpg);
+    width: 100%;
+    height: 600px;
+}
+
+<img src="./images/benefits background.jpg" alt="teaching yoga on beach" width="100%" height="600px">
